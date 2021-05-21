@@ -11,4 +11,11 @@
         android:layout_height="wrap_content"
         android:padding="40dp"
         android:text="" />
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/return_back" />
 </LinearLayout>

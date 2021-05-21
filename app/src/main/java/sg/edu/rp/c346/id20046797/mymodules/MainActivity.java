@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         tvOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MyModule.class);
+                Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
                 intent.putExtra("moduleCode", "C346");
                 intent.putExtra("moduleName", "Android Programming");
                 intent.putExtra("year","2020");
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         tvTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MyModule.class);
+                Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
                 intent.putExtra("moduleCode", "C349");
                 intent.putExtra("moduleName", "iPad Programming");
                 intent.putExtra("year","2020");
